@@ -36,6 +36,7 @@ msg "Updating container..."
 apt update && apt upgrade -y
 apt -y install dwarves
 apt-get -y install dwarves
+apt install dwarves
 apt install build-essential flex bison dwarves libssl-dev libelf-dev
 sudo apt install -y bc
 msg "Installing essential packages..."
